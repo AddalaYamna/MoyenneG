@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/img1"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.example.moyenneg.View.MainActivity">
+
+<!-- TextViews pour afficher les modules, la moyenne, le crédit et le statut -->
+<TextView
+    android:id="@+id/module1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Module 1 :"
+    android:textColor="#000000"
+    android:layout_marginTop="30dp"
+    android:textStyle="bold"/>
+
+<TextView
+    android:id="@+id/module2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Module 2 :"
+    android:textColor="#000000"
+    android:layout_below="@id/module1"
+    android:layout_marginTop="30dp"
+    android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/module3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Module 3 :"
+        android:textColor="#000000"
+        android:layout_below="@id/module2"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/module4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Module 4 :"
+        android:textColor="#000000"
+        android:layout_below="@id/module3"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/module5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Module 5 :"
+        android:textColor="#000000"
+        android:layout_below="@id/module4"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"/>
+
+<TextView
+    android:id="@+id/moyG"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Moyenne Générale :"
+    android:textColor="#000000"
+    android:layout_below="@id/module5"
+    android:layout_marginTop="30dp"
+    android:textStyle="bold"/>
+
+<TextView
+    android:id="@+id/credit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Crédit :"
+    android:textColor="#000000"
+    android:layout_below="@id/moyG"
+    android:layout_marginTop="30dp"
+    android:textStyle="bold"/>
+
+<TextView
+    android:id="@+id/status"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Statut :"
+    android:textColor="#000000"
+    android:layout_below="@id/credit"
+    android:layout_marginTop="30dp"
+    android:textStyle="bold"/>
+
+</RelativeLayout>
